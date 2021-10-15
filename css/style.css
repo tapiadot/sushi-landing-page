@@ -111,6 +111,7 @@ a {
   flex-direction: column;
 
   background-color: #e5e7eb;
+  font-style: oblique;
   padding: 135px 285px;
 }
 
@@ -129,6 +130,43 @@ a {
   margin-right: 1.5em;
 }
 
+.call-action {
+  align-self: center;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+
+  margin: 100px;
+  padding: 50px 115px;
+  width: 1025px;
+}
+
+.call-action-text .call-action-title {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.call-action-text .call-action-info {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.call-action .sign-up {
+  align-self: center;
+
+  color: #f0f0f0;
+  padding: 0.5em 2em;
+  font-size: 18px;
+  font-weight: 900;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 900;
@@ -145,4 +183,11 @@ h2 {
 
 footer {
   background-color: var(--theme-color);
+}
+
+footer .copyright {
+  font-size: 18px;
+  color: #f9faf8;
+  text-align: center;
+  margin: 2em auto;
 }
