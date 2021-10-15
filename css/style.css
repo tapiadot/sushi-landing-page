@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  --theme-color: #1f2937;
+  --secondary-color: #3888f6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--theme-color);
+
+  padding-left: 200px;
+  padding-right: 125px;
+}
+
+#hero .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1.5em;
+}
+
+#hero .header .header-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hero .hero-main {
+  display: flex;
+  gap: 3em;
+
+  margin: 125px auto;
+}
+
+#hero .hero-main .hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#hero .hero-main .hero-info p,
+#hero .header .header-links li a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#hero .header .header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+#hero .hero-main .hero-info .sign-up {
+  background-color: var(--secondary-color);
+  color: #f9faf8;
+  padding: 0.5em 2em;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 8px;
+
+  align-self: flex-start;
+}
+
+#hero .hero-img {
+  width: 540px;
+  max-width: 50%;
+  height: auto;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+footer {
+  background-color: var(--theme-color);
+}

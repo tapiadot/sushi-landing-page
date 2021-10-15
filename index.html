@@ -9,65 +9,70 @@
     <title>Great Sushi</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <section id="hero">
+      <nav class="header">
         <p class="header-logo">Header logo</p>
-        <ul>
+        <ul class="header-links">
           <li><a href="#">Header link one</a></li>
           <li><a href="#">Header link two</a></li>
           <li><a href="#">Header link three</a></li>
         </ul>
       </nav>
-      <div class="header-info">
-        <div class="header-info-text">
+      <div class="hero-main">
+        <div class="hero-info">
           <h1>This website is awesome</h1>
           <p>
             This website has some subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast.
           </p>
-          <a href="#">Sign up</a>
+          <a class="sign-up" href="#">Sign up</a>
         </div>
-        <img src="img/salmon-sushi.jpg" alt="Salmon sushi" />
+        <img src="img/salmon-sushi.jpg" alt="Salmon sushi" class="hero-img" />
       </div>
-    </header>
-    <main>
-      <h2>Some random information</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="img/doge-lying.jpg" alt="An image" />
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="card">
-          <img src="img/doge-lying.jpg" alt="An image" />
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="card">
-          <img src="img/doge-lying.jpg" alt="An image" />
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="card">
-          <img src="img/doge-lying.jpg" alt="An image" />
-          <p>this is some subtext under an illustration or image</p>
-        </div>
+    </section>
+
+    <h2>Some random information</h2>
+
+    <section class="cards">
+      <div class="card">
+        <img src="img/doge-lying.jpg" alt="An image" />
+        <p>this is some subtext under an illustration or image</p>
       </div>
-      <div class="quote">
-        <p>
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice.
+      <div class="card">
+        <img src="img/doge-lying.jpg" alt="An image" />
+        <p>this is some subtext under an illustration or image</p>
+      </div>
+      <div class="card">
+        <img src="img/doge-lying.jpg" alt="An image" />
+        <p>this is some subtext under an illustration or image</p>
+      </div>
+      <div class="card">
+        <img src="img/doge-lying.jpg" alt="An image" />
+        <p>this is some subtext under an illustration or image</p>
+      </div>
+    </section>
+
+    <section class="quote">
+      <p class="quote-text">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </p>
+      <p class="quote-author">-Thor, God of Thunder</p>
+    </section>
+
+    <section class="call-action">
+      <div class="call-action-text">
+        <p class="call-action-title">Call to action!</p>
+        <p class="call-action-info">
+          Sign up for our product by clicking that button right over there!
         </p>
-        <p>-Thor, God of Thunder</p>
       </div>
-      <div class="call-action">
-        <div class="call-action-text">
-          <p>Call to action!</p>
-          <p>
-            Sign up for our product by clicking that button right over there!
-          </p>
-        </div>
-        <a href="#">Sign up</a>
-      </div>
-    </main>
-    <footer>Copyright © The Odin Project 2021</footer>
+      <a class="sign-up" href="#">Sign up</a>
+    </section>
+
+    <footer>
+      <p class="copyright">Copyright © The Odin Project 2021</p>
+    </footer>
   </body>
 </html>
