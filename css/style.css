@@ -106,6 +106,29 @@ a {
   margin: 0.2em;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #e5e7eb;
+  padding: 135px 285px;
+}
+
+.quote .quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  width: 100%;
+}
+
+.quote .quote-author {
+  font-size: 24px;
+  font-weight: 900;
+
+  align-self: flex-end;
+
+  margin-right: 1.5em;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 900;
