@@ -56,12 +56,27 @@ a {
 }
 
 #hero .header .header-logo {
+  display: flex;
+  gap: 1em;
+
+  height: 2em;
+  width: auto;
+
   font-size: 24px;
   color: #f9faf8;
   font-weight: 900;
 }
 
-#hero .hero-main .hero-info .sign-up {
+#hero .header .header-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+#hero .header .header-logo p {
+  align-self: center;
+}
+
+#hero .hero-main .hero-info .place-order {
   background-color: var(--secondary-color);
   color: #f9faf8;
   padding: 0.5em 2em;
@@ -156,7 +171,7 @@ a {
   color: #f9faf8;
 }
 
-.call-action .sign-up {
+.call-action .place-order {
   align-self: center;
 
   color: #f0f0f0;
