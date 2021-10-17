@@ -1,12 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
+
   --theme-color: #1f2937;
   --secondary-color: #3888f6;
+  --sushi-theme: -webkit-linear-gradient(35deg, #0c69d9, #cf05c1);
+  --sushi-light-theme: -webkit-linear-gradient(35deg, #8bafda, #d69ed2);
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
+}
+
+span.gradient {
+  background: var(--sushi-theme);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-main .hero-info p span {
+  background: #f9faf8;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }
 
 #hero {
@@ -55,6 +79,11 @@ a {
   color: #e5e7eb;
 }
 
+.header-links li a:hover {
+  background: var(--sushi-theme);
+  border-radius: 8px;
+}
+
 #hero .header .header-logo {
   display: flex;
   gap: 1em;
@@ -77,7 +106,7 @@ a {
 }
 
 #hero .hero-main .hero-info .place-order {
-  background-color: var(--secondary-color);
+  background: var(--sushi-theme);
   color: #f9faf8;
   padding: 0.5em 2em;
   font-size: 18px;
@@ -91,6 +120,7 @@ a {
   width: 540px;
   max-width: 50%;
   height: auto;
+  border-radius: 5px;
 }
 
 .cards {
@@ -137,12 +167,29 @@ a {
 }
 
 .quote .quote-author {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.quote .quote-author p {
   font-size: 24px;
   font-weight: 900;
+}
 
-  align-self: flex-end;
+/* Both cut and resize the img */
+.quote .quote-author .crop {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
 
-  margin-right: 1.5em;
+  border-radius: 50px;
+}
+.quote .quote-author .crop img {
+  width: 160px; /* original 1280px */
+  height: 240px; /* original 1920px */
+  margin: 0 0 0 -28px;
 }
 
 .call-action {
@@ -152,7 +199,7 @@ a {
   justify-content: space-between;
   gap: 3em;
 
-  background-color: var(--secondary-color);
+  background: var(--sushi-theme);
   border-radius: 10px;
 
   margin: 100px;
@@ -197,12 +244,26 @@ h2 {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+
   background-color: var(--theme-color);
+  padding: 2.5em;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+footer .footer-links li a {
+  color: #e5e7eb;
 }
 
 footer .copyright {
   font-size: 18px;
   color: #f9faf8;
-  text-align: center;
-  margin: 2em auto;
 }

@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="img/sushi-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Great Sushi</title>
@@ -24,11 +30,12 @@
       </nav>
       <div class="hero-main">
         <div class="hero-info">
-          <h1>Outstanding meals with <span>Great Sushi</span></h1>
+          <h1>
+            Outstanding meals with <span class="gradient">Great Sushi</span>
+          </h1>
           <p>
-            <span>Visit us</span> in our restaurant for a top-quality
-            experience. <span>Order now</span> and we deliver the meal next to
-            your door.
+            Visit us in our restaurant for a top-quality experience. Order now
+            and we deliver the meal next to your door.
           </p>
           <p>
             Whichever is your choice, <span>satisfaction is guaranteed</span>.
@@ -40,7 +47,7 @@
     </section>
 
     <section class="information" id="about-us">
-      <h2>Great Meals, Great Sushi</h2>
+      <h2>Great Meals, <span class="gradient">Great Sushi</span></h2>
 
       <div class="cards">
         <div class="card">
@@ -69,7 +76,12 @@
         little rice vinegar—one has to impeccably balance the ingredients to
         craft perfection.
       </p>
-      <p class="quote-author">-Thor, God of Thunder</p>
+      <div class="quote-author">
+        <p>-Ryoshi, our lead chef</p>
+        <div class="crop">
+          <img src="img/chef-portrait.jpg" alt="Picture of a chef" />
+        </div>
+      </div>
     </section>
 
     <section class="call-action" id="order-now">
@@ -84,6 +96,19 @@
     </section>
 
     <footer>
+      <ul class="footer-links">
+        <li><a href="https://github.com/doggelou">@doggelou</a></li>
+        <li>
+          <a href="https://github.com/doggelou/sushi-landing-page"
+            >Source code</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/doggelou/sushi-landing-page#readme"
+            >Image credit</a
+          >
+        </li>
+      </ul>
       <p class="copyright">Copyright © The Odin Project 2021</p>
     </footer>
   </body>
