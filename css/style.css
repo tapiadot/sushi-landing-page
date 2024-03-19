@@ -218,12 +218,21 @@ a {
   color: #f9faf8;
 }
 
-.call-action .place-order {
+.call-action  {
   align-self: center;
-
   color: #f0f0f0;
-  padding: 0.5em 2em;
+  padding: 1.5em 2em;
   font-size: 18px;
+  font-weight: 1000;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+}
+
+.place-order {
+  align-self: center;
+  color: #f0f0f0;
+  padding: 0.5em 0.8em;
+  font-size: 20px;
   font-weight: 900;
   border: 2px solid #f9faf8;
   border-radius: 8px;
@@ -261,6 +270,10 @@ footer .footer-links {
 
 footer .footer-links li a {
   color: #e5e7eb;
+}
+
+.sep-links {
+  margin: 0 60px;
 }
 
 footer .copyright {
