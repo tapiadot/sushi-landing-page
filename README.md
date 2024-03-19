@@ -2,9 +2,9 @@
 
 ## About
 
-Welcome to **Great Sushi**, a fictional restaurant and delievery service that focus on giving the best sushi ever made! I've made this with The Odin's Project's template and customized it a bit, sushi theme included. It's still not responsive to mobile devices but that'll be worked around later.
+Welcome to **Great Sushi**, a fictional restaurant and delivery service that focus on giving the best sushi ever made! I've made this with The Odin's Project's template and customized it a bit, sushi theme included. It's still not responsive to mobile devices but that'll be worked around later.
 
-You can watch it live [here](https://doggelou.github.io/sushi-landing-page/)
+You can watch it live [here](https://tapilew.github.io/sushi-landing-page/)
 
 ## Image credit
 
